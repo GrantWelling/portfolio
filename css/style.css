@@ -1,0 +1,44 @@
+.header {
+    display: grid;
+    background-color: black;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.headshot {
+    img {
+        max-width: 50%;
+        height: auto;
+    }
+}
+
+.nameTitle {
+    color: rgb(33, 238, 5);
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    display: inline;
+    float: right;
+    display: block;
+    color: rgb(33, 238, 5);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
